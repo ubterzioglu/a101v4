@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git tag:*)",
+      "Bash(wc:*)",
+      "Bash(for file in components/sections/Features.tsx components/sections/Education.tsx components/sections/Career.tsx components/sections/Life.tsx components/sections/Footer.tsx)",
+      "Bash(do sed:*)",
+      "Bash(done)",
+      "Bash(for:*)",
+      "Bash(do head:*)",
+      "Bash(powershell -Command \"Move-Item -Path ''src'' -Destination ''src.vite.bak'' -Force\")",
+      "Bash(powershell -Command \"Remove-Item -Recurse -Force ''src.vite.bak''\")",
+      "Bash(powershell -Command \"Remove-Item -Force ''vite.config.ts'', ''tsconfig.app.json'', ''tsconfig.node.json'', ''index.html'', ''src/main.tsx'', ''.eslintrc.cjs''\")",
+      "Bash(powershell -Command \"Remove-Item -Force ''vite.config.ts'', ''tsconfig.app.json'', ''tsconfig.node.json'', ''index.html''\")",
+      "Bash(npm run build:*)",
+      "mcp__plugin_serena_serena__initial_instructions"
+    ]
+  }
+}
